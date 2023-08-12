@@ -10,7 +10,7 @@
         <classes>
             <class name="tests.FortvisionTest">
                 <methods>
-                    <include name="findAudiCars"/>
+                    <include name=""/>
                 </methods>
             </class>
         </classes>

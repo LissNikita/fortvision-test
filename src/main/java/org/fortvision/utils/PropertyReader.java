@@ -7,7 +7,7 @@ import java.io.UncheckedIOException;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 
-public class PropertiesReader {
+public class PropertyReader {
     public static String getPropertyValue(String propertyName) {
 
         Properties properties = new Properties();
