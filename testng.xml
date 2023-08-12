@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Fortvision main tests">
+
+        <parameter name="startType" value="local"/>
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <parameter name="version" value="latest"/>-->
+
+        <classes>
+            <class name="tests.FortvisionTest">
+                <methods>
+                    <include name="findAudiCars"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
