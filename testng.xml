@@ -10,7 +10,7 @@
         <classes>
             <class name="tests.FortvisionTest">
                 <methods>
-                    <include name=""/>
+                    <include name="findMainLogo"/>
                 </methods>
             </class>
         </classes>
