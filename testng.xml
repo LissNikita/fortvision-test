@@ -11,6 +11,7 @@
             <class name="tests.FortvisionTest">
                 <methods>
                     <include name="findMainLogo"/>
+                    <include name="openLearningCenterPage"/>
                 </methods>
             </class>
         </classes>
