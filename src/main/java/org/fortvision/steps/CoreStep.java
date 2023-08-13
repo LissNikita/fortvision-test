@@ -24,4 +24,11 @@ public class CoreStep {
         mainPage.learningCenterButton
                 .click();
     }
+
+    @Step("Click on login button")
+    public void clickOnLoginButton() {
+        log.info("Click on login button");
+        mainPage.loginButton
+                .click();
+    }
 }

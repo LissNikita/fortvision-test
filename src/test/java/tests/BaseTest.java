@@ -38,8 +38,7 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        log.info("AFTER CLASS");
-        clearBrowserLocalStorage();
+        log.info("AFTER METHOD");
         clearBrowserCookies();
     }
 

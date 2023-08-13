@@ -10,7 +10,5 @@ public class MainPage {
 
     public SelenideElement titleLogo = $x("//img[@class = 'custom-logo']");
     public SelenideElement loginButton = $x("//a[@title = 'Login']");
-    public SelenideElement solutionsButton = $(By.id("menu-item-234"));
     public SelenideElement learningCenterButton = $(By.id("menu-item-326"));
-    public SelenideElement marketingAutomationButton = $(By.id("menu-item-53"));
 }
